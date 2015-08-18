@@ -4,7 +4,7 @@ Plugin Name: Wiki on Medal
 Plugin URI: http://smartfan.pl/
 Description: Widget that shows article on medal from Wikipedia.
 Author: Piotr Pesta
-Version: 1.1.0
+Version: 1.1.1
 Author URI: http://smartfan.pl/
 License: GPL12
 */
@@ -16,7 +16,7 @@ class wiki_na_5 extends WP_Widget {
 // konstruktor widgetu
 function wiki_na_5() {
 
-	$this->WP_Widget(false, $name = __('Wiki on Medal', 'wp_widget_plugin') );
+	parent::__construct(false, $name = __('Wiki on Medal', 'wp_widget_plugin') );
 
 }
 
