@@ -7,7 +7,7 @@ Tags: widget, wikipedia, article on medal, wikipedia widget, featured article
 Author: Piotr Pesta
 Requires at least: 2.8.0
 Tested up to: 4.3
-Stable tag: 1.1.1
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,9 @@ Or just add .zip file as a new plugin in your Wordpress administration panel.
 1. Wiki on Medal on right block.
 
 == Changelog ==
+= 1.2.0 =
+* Caching support (5 hours refresh)
+* Minor bug fix for polish lang
 = 1.1.1 =
 * Wordpress 4.3 compatibility
 = 1.1.0 =
